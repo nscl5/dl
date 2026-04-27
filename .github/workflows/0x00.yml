@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       url:
-        description: 'Target URL (Direct, Github releases, YouTube, Bunkr, etc.)'
+        description: 'Target URLs (Separate with space, comma, or new line)'
         required: true
         type: string
       quality:
@@ -39,11 +39,9 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y --no-install-recommends aria2 ffmpeg
           
-          # Download yt-dlp binary directly
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
           
-          # Install Bun for JS challenges
           curl -fsSL https://bun.com/install | bash
           echo "$HOME/.bun/bin" >> $GITHUB_PATH
 
@@ -100,16 +98,17 @@ jobs:
                       for c in resp.iter_content(8192): f.write(c) if c else None
           EOF
 
-      - name: Download & Process File
+      - name: Download & Process Files (Supports Multiple URLs)
         shell: bash
         run: |
-          URL="${{ github.event.inputs.url }}"
+          RAW_URLS="${{ github.event.inputs.url }}"
           QUALITY="${{ github.event.inputs.quality }}"
+          
+          # Convert commas and enters to spaces for standardize links
+          FORMATTED_URLS=$(echo "$RAW_URLS" | tr ',' ' ' | tr '\n' ' ')
           
           rm -rf tmp_downloads
           mkdir -p tmp_downloads dl
-          
-          echo "Processing URL: $URL"
           
           if [[ "$QUALITY" == *"720p"* ]]; then
             YTDLP_F="-f bestvideo[ext=mp4][height<=720]+bestaudio[ext=m4a]/best[ext=mp4][height<=720]/best --merge-output-format mp4"
@@ -123,27 +122,37 @@ jobs:
             YTDLP_F="--merge-output-format mp4"
           fi
 
-          if echo "$URL" | grep -qE "(bunkr\.si|bunkr\.fi|bunkr\.ru|bunkr\.cr|bunkr\.rip|bunkrr\.su)"; then
-            echo "Downloading from Bunkr..."
-            python3 bunkr.py "$URL" "tmp_downloads"
+          # To process individual links
+          for URL in $FORMATTED_URLS; do
+            # Skip if the section is empty.
+            if [ -z "$URL" ]; then continue; fi
             
-          elif echo "$URL" | grep -qE "(youtube\.com|youtu\.be|twitch\.tv|reddit\.com|vimeo|soundcloud)"; then
-            echo "Downloading with yt-dlp..."
-            COOKIE_ARG=""
-            [ -s youtube_cookies.txt ] && COOKIE_ARG="--cookies youtube_cookies.txt"
-            
-            yt-dlp --js-runtimes bun:$HOME/.bun/bin/bun $COOKIE_ARG $YTDLP_F -o "tmp_downloads/%(title)s.%(ext)s" "$URL"
-            
-          else
-            echo "Downloading direct file with aria2..."
-            aria2c --split=2 --max-connection-per-server=2 --dir="tmp_downloads" "$URL"
-          fi
+            echo "==========================================="
+            echo "Processing URL: $URL"
+            echo "==========================================="
+
+            if echo "$URL" | grep -qE "(bunkr\.si|bunkr\.fi|bunkr\.ru|bunkr\.cr|bunkr\.rip|bunkrr\.su)"; then
+              echo "Downloading from Bunkr..."
+              python3 bunkr.py "$URL" "tmp_downloads"
+              
+            elif echo "$URL" | grep -qE "(youtube\.com|youtu\.be|twitch\.tv|reddit\.com|vimeo|soundcloud)"; then
+              echo "Downloading with yt-dlp..."
+              COOKIE_ARG=""
+              [ -s youtube_cookies.txt ] && COOKIE_ARG="--cookies youtube_cookies.txt"
+              
+              yt-dlp --js-runtimes bun:$HOME/.bun/bin/bun $COOKIE_ARG $YTDLP_F -o "tmp_downloads/%(title)s.%(ext)s" "$URL"
+              
+            else
+              echo "Downloading direct file with aria2..."
+              aria2c --split=2 --max-connection-per-server=2 --dir="tmp_downloads" "$URL"
+            fi
+          done
 
       - name: Zip & Split
         shell: bash
         run: |
           HAS_PASS="${{ github.event.inputs.password }}"
-          
+
           for FILE in tmp_downloads/*; do
             [ -f "$FILE" ] || continue
             SIZE=$(stat -c%s "$FILE")
@@ -160,7 +169,6 @@ jobs:
               
               zip $PASS_ARG -s 95m "dl/${BASENAME}.zip" -j "$FILE"
               
-              # Registering zip files for Links.md
               for ZPART in "dl/${BASENAME}".zip "dl/${BASENAME}".z*; do
                 if [ -f "$ZPART" ]; then
                   basename "$ZPART" >> new_files.txt
@@ -182,9 +190,9 @@ jobs:
           REPO="${{ github.repository }}"
           BRANCH="${GITHUB_REF_NAME}"
           
-          HEADER="## 🔗 Direct Download Links\n Click on any link below to start downloading directly.\n\n"
+          HEADER="# 🔗 Direct Download Links\n> Click on any link below to start downloading directly.\n\n"
           
-          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M') (IR Time)" > current_run.md
+          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M' IR" > current_run.md
           
           while IFS= read -r FNAME; do
             ENCODED_NAME=$(python3 -c "import urllib.parse; print(urllib.parse.quote(input()))" <<< "$FNAME")
@@ -212,5 +220,5 @@ jobs:
           git config user.name "NET-Sentinel Bot"
           git config user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
           git add dl/ Links.md
-          git commit -m "✨ Add downloaded file via Panel [skip ci]" || echo "Nothing to commit"
+          git commit -m "Add downloaded files via Panel [skip ci]" || echo "Nothing to commit"
           git push origin HEAD:$BRANCH
