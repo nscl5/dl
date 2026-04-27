@@ -4,6 +4,18 @@
 
 
 
+### 📅 2026-04-27 12:16 IR
+- 📥 **[AmneziaVPN_4.8.15.0_android9+_arm64-v8a.apk.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.0_android9%2B_arm64-v8a.apk.zip)**
+- 📥 **[AmneziaVPN_4.8.15.0_android9+_arm64-v8a.apk.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.0_android9%2B_arm64-v8a.apk.zip)**
+- 📥 **[AmneziaVPN_4.8.15.0_android9+_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.0_android9%2B_armeabi-v7a.apk)**
+- 📥 **[v2rayNG_2.1.2_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.2_arm64-v8a.apk)**
+- 📥 **[v2rayNG_2.1.2_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.2_armeabi-v7a.apk)**
+- 📥 **[windows-release.1.zip](https://github.com/nscl5/dl/raw/main/dl/windows-release.1.zip)**
+- 📥 **[windows-release.zip](https://github.com/nscl5/dl/raw/main/dl/windows-release.zip)**
+
+
+
+
 ### 📅 2026-04-27 11:44 IR
 - 📥 **[cmfa-2.11.27-meta-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.27-meta-arm64-v8a-release.apk)**
 - 📥 **[cmfa-2.11.27-meta-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.27-meta-armeabi-v7a-release.apk)**
