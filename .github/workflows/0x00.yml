@@ -45,7 +45,7 @@ jobs:
           curl -fsSL https://bun.com/install | bash
           echo "$HOME/.bun/bin" >> $GITHUB_PATH
 
-      - name: Setup YouTube Cookies
+      - name: Setup YouTube Cookies 
         run: |
           if [ -n "${{ secrets.YOUTUBE_COOKIES }}" ]; then
             echo '${{ secrets.YOUTUBE_COOKIES }}' > youtube_cookies.txt
