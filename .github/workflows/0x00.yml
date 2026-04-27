@@ -192,7 +192,7 @@ jobs:
           
           HEADER="# 🔗 Direct Download Links\n> Click on any link below to start downloading directly.\n\n"
           
-          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M' IR)" > current_run.md
+          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M') IR" > current_run.md
           
           while IFS= read -r FNAME; do
             ENCODED_NAME=$(python3 -c "import urllib.parse; print(urllib.parse.quote(input()))" <<< "$FNAME")
