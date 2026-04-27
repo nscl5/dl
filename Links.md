@@ -3,6 +3,15 @@
 
 
 ### 📅 
+- 📥 **[SlipNet-v2.5.3-full-release-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-arm64-v8a.apk)**
+- 📥 **[SlipNet-v2.5.3-full-release-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-armeabi-v7a.apk)**
+- 📥 **[SlipNet-v2.5.3-full-release-universal.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-universal.apk)**
+- 📥 **[SlipNet-v2.5.3-lite-release-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-arm64-v8a.apk)**
+- 📥 **[SlipNet-v2.5.3-lite-release-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-armeabi-v7a.apk)**
+- 📥 **[SlipNet-v2.5.3-lite-release-universal.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-universal.apk)**
+
+
+### 📅 
 - 📥 **[Exclave-0.17.35-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.35-arm64-v8a.apk)**
 - 📥 **[Exclave-0.17.35-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.35-armeabi-v7a.apk)**
 
