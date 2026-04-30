@@ -2,6 +2,14 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-04-30 13:42 IR
+- 🗜️ [tportable.6.7.8.zip](https://github.com/nscl5/dl/raw/main/dl/tportable.6.7.8.zip) `57.0MB`
+
+- 📥 [tsetup.6.7.8.exe](https://github.com/nscl5/dl/raw/main/dl/tsetup.6.7.8.exe) `44.3MB`
+
+---
+
+
 ### 📅 2026-04-29 14:11 IR
 - 🎬 [عربی حرف زدن آقای کاووسی 🤣 این سکانس معرکس 😂✌️.mp4](https://github.com/nscl5/dl/raw/main/dl/%D8%B9%D8%B1%D8%A8%DB%8C%20%D8%AD%D8%B1%D9%81%20%D8%B2%D8%AF%D9%86%20%D8%A2%D9%82%D8%A7%DB%8C%20%DA%A9%D8%A7%D9%88%D9%88%D8%B3%DB%8C%20%F0%9F%A4%A3%20%D8%A7%DB%8C%D9%86%20%D8%B3%DA%A9%D8%A7%D9%86%D8%B3%20%D9%85%D8%B9%D8%B1%DA%A9%D8%B3%20%F0%9F%98%82%E2%9C%8C%EF%B8%8F.mp4) `17.2MB`
 
