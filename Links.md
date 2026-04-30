@@ -2,6 +2,14 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-04-30 23:19 IR
+- 📱 [v2rayNG_2.1.4_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.4_arm64-v8a.apk) `26.8MB`
+
+- 📱 [v2rayNG_2.1.4_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.4_armeabi-v7a.apk) `27.2MB`
+
+---
+
+
 ### 📅 2026-04-30 13:42 IR
 - 🗜️ [tportable.6.7.8.zip](https://github.com/nscl5/dl/raw/main/dl/tportable.6.7.8.zip) `57.0MB`
 
