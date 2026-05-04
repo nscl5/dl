@@ -1,5 +1,8 @@
 ## 🔗 Direct Download Links
 
+### 📅 2026-05-05 00:11 (IR Time)
+- 📥 **[Audio_DriverOnly_DCH_Realtek_L_V6.0.9929.1_47672.exe](https://github.com/nscl5/dl/raw/main/dl/Audio_DriverOnly_DCH_Realtek_L_V6.0.9929.1_47672.exe)**
+
 ### 📅 2026-05-04 14:36 (IR Time)
 - 📥 **[Happ_beta.zip](https://github.com/nscl5/dl/raw/main/dl/Happ_beta.zip)**
 
