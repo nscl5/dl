@@ -9,23 +9,10 @@
 
 ---
 
-
-### 📅 2026-05-05 00:21 IR
-- 🗜️ [Audio_B_Realtek_DTS_ROG_DCH_W10_64_V6089181.zip](https://github.com/nscl5/dl/raw/main/dl/Audio_B_Realtek_DTS_ROG_DCH_W10_64_V6089181.zip) `25.0MB`
-
----
-
-- 📥 **[Audio_DriverOnly_DCH_Realtek_L_V6.0.9929.1_47672.exe](https://github.com/nscl5/dl/raw/main/dl/Audio_DriverOnly_DCH_Realtek_L_V6.0.9929.1_47672.exe)**
-
-### 📅 2026-05-04 14:36 (IR Time)
-- 📥 **[Happ_beta.zip](https://github.com/nscl5/dl/raw/main/dl/Happ_beta.zip)**
-
 ### 📅 2026-05-03 15:06 (IR Time)
 - 📥 **[SlipStream-GUI-Windows-x64.zip](https://github.com/nscl5/dl/raw/main/dl/SlipStream-GUI-Windows-x64.zip)**
 
-## 🔗 Direct Download Links
-> Click on any link below to start downloading directly.<br><br/>
-
+---
 
 ### 📅 2026-05-03 12:34 IR
 - 📱 [Exclave-0.17.38-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.38-arm64-v8a.apk) `22.2MB`
