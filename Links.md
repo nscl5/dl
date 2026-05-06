@@ -1,3 +1,8 @@
+## 🔗 Direct Download Links
+
+### 📅 2026-05-07 03:25 (IR Time)
+- 📥 **[Telegram.zip](https://github.com/nscl5/dl/raw/main/dl/Telegram.zip)**
+
 ### 📅 2026-05-06 01:43 IR
 - 📥 [Hiddify-Linux-x64-AppImage.tar.gz](https://github.com/nscl5/dl/raw/main/dl/Hiddify-Linux-x64-AppImage.tar.gz) `52.2MB`
 
