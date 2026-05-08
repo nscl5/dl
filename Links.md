@@ -1,5 +1,8 @@
 ## 🔗 Direct Download Links
 
+### 📅 2026-05-08 11:42 (IR Time)
+- 📥 [Exclave-0.17.39-armeabi-v7a.zip](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.39-armeabi-v7a.zip) `21.12 MB`
+
 ### 📅 2026-05-08 11:41 (IR Time)
 - 📥 [Exclave-0.17.39-arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.39-arm64-v8a.zip) `20.66 MB`
 
