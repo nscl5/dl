@@ -1,5 +1,8 @@
 ## 🔗 Direct Download Links
 
+### 📅 2026-05-08 11:31 (IR Time)
+- 📥 [Telegram.zip](https://github.com/nscl5/dl/raw/main/dl/Telegram.zip) `70.43 MB`
+
 ### 📅 2026-05-07 03:25 (IR Time)
 - 📥 **[Telegram.zip](https://github.com/nscl5/dl/raw/main/dl/Telegram.zip)**
 
