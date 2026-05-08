@@ -2,11 +2,10 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
-### 📅 2026-05-08 14:20 (IR Time)
+### 📅 2026-05-08 14:20 IR
 - 📥 [Happ.zip](https://github.com/nscl5/dl/raw/main/dl/Happ.zip) `51.59 MB`
 
-### 📅 2026-05-08 12:33 (IR Time)
-- 📥 [Telegram_G-Play_armv8_v12.7.1.apks](https://github.com/nscl5/dl/raw/main/dl/Telegram_G-Play_armv8_v12.7.1.apks) `38.05 MB`
+---
 
 ### 📅 2026-05-08 12:09 IR
 - 📥 [Telegram_windows-x64_setup-file_v6.8.1.exe](https://github.com/nscl5/dl/raw/main/dl/tsetup-x64.6.8.1.exe) `49.2MB`
@@ -14,6 +13,8 @@
 - 📥 [Telegram_linux_setup-file_v6.8.1.tar.xz](https://github.com/nscl5/dl/raw/main/dl/tsetup.6.8.1.tar.xz) `64.2MB`
 
 - 📥 **[Telegram_android_direct_v12.7.2.zip](https://github.com/nscl5/dl/raw/main/dl/Telegram.zip)** `70.43MB`
+
+- 📥 [Telegram_G-Play_armv8_v12.7.1.apks](https://github.com/nscl5/dl/raw/main/dl/Telegram_G-Play_armv8_v12.7.1.apks) `38.05 MB`
 
 ---
 
