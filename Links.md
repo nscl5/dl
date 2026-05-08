@@ -1,5 +1,8 @@
 ## 🔗 Direct Download Links
 
+### 📅 2026-05-08 11:41 (IR Time)
+- 📥 [Exclave-0.17.39-arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.39-arm64-v8a.zip) `20.66 MB`
+
 ### 📅 2026-05-08 11:35 (IR Time)
 - 📥 [NetMod_armv8_v4.1.0.apks](https://github.com/nscl5/dl/raw/main/dl/NetMod_armv8_v4.1.0.apks) `23.69 MB`
 
