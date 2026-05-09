@@ -26,25 +26,28 @@ on:
 jobs:
   download-and-save:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     permissions:
       contents: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@main
         with:
           fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/dl/
 
       - name: Fast Install Dependencies
         run: |
-          sudo apt-get install -y --no-install-recommends aria2 ffmpeg python3-requests p7zip-full
+          sudo apt-get install -y --no-install-recommends python3-requests
           
           sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
           sudo chmod a+rx /usr/local/bin/yt-dlp
           
           curl -fsSL https://bun.com/install | bash
           echo "$HOME/.bun/bin" >> $GITHUB_PATH
+  
 
       - name: Setup YouTube Cookies 
         env:
