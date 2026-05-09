@@ -38,16 +38,9 @@ jobs:
             /*
             !/dl/
 
-      - name: Fast Install Dependencies
+      - name: Fast Setup (Python Only)
         run: |
-          sudo apt-get install -y --no-install-recommends python3-requests
-          
-          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
-          sudo chmod a+rx /usr/local/bin/yt-dlp
-          
-          curl -fsSL https://bun.com/install | bash
-          echo "$HOME/.bun/bin" >> $GITHUB_PATH
-  
+          pip3 install requests --break-system-packages
 
       - name: Setup YouTube Cookies 
         env:
@@ -150,7 +143,6 @@ jobs:
                       data = s_resp.json()
                       if data.get('status') == 'completed':
                           dl_url = data.get('downloadUrl')
-                          # Clean up title for Linux filesystem
                           raw_title = data.get('title', 'YouTube_Video')
                           title = re.sub(r'[\\/*?:"<>| ]', '_', raw_title)
                           
@@ -168,7 +160,7 @@ jobs:
               sys.exit(1)
           EOF
 
-      - name: Download & Process Files (Supports Multiple URLs)
+      - name: Download & Process Files
         shell: bash
         run: |
           RAW_URLS="${{ github.event.inputs.url }}"
@@ -191,6 +183,19 @@ jobs:
             YTDLP_F="--merge-output-format mp4"
           fi
 
+          install_heavy_tools() {
+            if [ ! -f "/usr/local/bin/yt-dlp" ]; then
+              echo "⏳ Installing fallback tools (yt-dlp, ffmpeg, aria2, bun)..."
+              sudo apt-get update -qq
+              sudo apt-get install -y --no-install-recommends ffmpeg aria2 > /dev/null 2>&1
+              sudo curl -sL https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+              sudo chmod a+rx /usr/local/bin/yt-dlp
+              curl -fsSL https://bun.com/install | bash > /dev/null 2>&1
+              export PATH="$HOME/.bun/bin:$PATH"
+              echo "✅ Fallback tools installed successfully!"
+            fi
+          }
+
           for URL in $FORMATTED_URLS; do
             if [ -z "$URL" ]; then continue; fi
             
@@ -209,21 +214,25 @@ jobs:
                 echo "✅ Downloaded successfully via fast API!"
               else
                 echo "⚠️ API failed or timed out. Falling back to yt-dlp..."
+                install_heavy_tools
+                
                 COOKIE_ARG=""
                 [ -s youtube_cookies.txt ] && COOKIE_ARG="--cookies youtube_cookies.txt"
-                # Added --restrict-filenames to avoid space/special char issues
                 yt-dlp --restrict-filenames --js-runtimes bun:$HOME/.bun/bin/bun $COOKIE_ARG $YTDLP_F -o "tmp_downloads/%(title)s.%(ext)s" "$URL"
               fi
             
             elif echo "$URL" | grep -qE "(twitch\.tv|reddit\.com|vimeo|soundcloud)"; then
               echo "Downloading with yt-dlp..."
+              install_heavy_tools
+              
               COOKIE_ARG=""
               [ -s youtube_cookies.txt ] && COOKIE_ARG="--cookies youtube_cookies.txt"
-              # Added --restrict-filenames
               yt-dlp --restrict-filenames --js-runtimes bun:$HOME/.bun/bin/bun $COOKIE_ARG $YTDLP_F -o "tmp_downloads/%(title)s.%(ext)s" "$URL"
               
             else
               echo "Downloading direct file with aria2..."
+              install_heavy_tools
+              
               aria2c --content-disposition-default-utf8=true --split=2 --max-connection-per-server=2 --dir="tmp_downloads" "$URL"
             fi
           done
@@ -244,11 +253,15 @@ jobs:
             if [ -n "$HAS_PASS" ] || [ "$SIZE" -gt "$LIMIT" ]; then
               echo "Zipping/Splitting: $BASENAME"
               
+              if ! command -v 7z &> /dev/null; then
+                echo "⏳ Installing 7z for splitting large files..."
+                sudo apt-get update -qq
+                sudo apt-get install -y --no-install-recommends p7zip-full > /dev/null 2>&1
+              fi
+              
               if [ -n "$HAS_PASS" ]; then
-
                 7z a -tzip -v95m -p"$HAS_PASS" "dl/${BASENAME}.zip" "$FILE"
               else
-
                 7z a -tzip -v95m "dl/${BASENAME}.zip" "$FILE"
               fi
               
@@ -291,7 +304,7 @@ jobs:
               apk)             ICON="📱" ;;
               mp4|mkv|avi|mov) ICON="🎬" ;;
               mp3|m4a|flac|ogg) ICON="🎵" ;;
-              zip|z[0-9]*)     ICON="🗜️" ;;
+              zip|00[1-9]*)    ICON="🗜️" ;;
               *)               ICON="📥" ;;
             esac
             
