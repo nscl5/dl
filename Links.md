@@ -2,6 +2,14 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-11 20:43 IR
+- 📱 [v2rayNG_2.1.7_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.7_arm64-v8a.apk) `26.8MB`
+
+- 📱 [v2rayNG_2.1.7_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.7_armeabi-v7a.apk) `27.1MB`
+
+---
+
+
 ### 📅 2026-05-09 07:34 IR
 - 🎬 [Vikings___Ragnar_Lothbrok___Farewell.mp4](https://github.com/nscl5/dl/raw/main/dl/Vikings___Ragnar_Lothbrok___Farewell.mp4) `92.4MB`
 
