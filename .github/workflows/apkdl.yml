@@ -1,0 +1,173 @@
+name: G-Play dl
+
+on:
+  workflow_dispatch:
+    inputs:
+      app_input:
+        description: 'Package name OR Google Play URL'
+        required: true
+        type: string
+
+jobs:
+  download-apk:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /*
+            !/dl/
+            !/apks/
+
+      - name: Parse Input (Get Package Name)
+        id: parse
+        run: |
+          RAW_INPUT="${{ github.event.inputs.app_input }}"
+          if [[ "$RAW_INPUT" == *"id="* ]]; then
+            PKG=$(echo "$RAW_INPUT" | grep -oP 'id=\K[^&]+')
+          else
+            PKG="$RAW_INPUT"
+          fi
+          echo "pkg=$PKG" >> $GITHUB_ENV
+          echo "📥 Target Package: $PKG"
+
+      - name: Download apkeep (Google Play Fetcher Engine)
+        run: |
+          wget -q https://github.com/EFForg/apkeep/releases/latest/download/apkeep-x86_64-unknown-linux-gnu -O apkeep
+          chmod +x apkeep
+
+      - name: Fetch APK
+        run: |
+          mkdir -p temp_dl
+          ./apkeep -a ${{ env.pkg }} -d apk-pure temp_dl/
+
+      - name: Smart Repackager (Python)
+        # This script transforms annoying .xapk files into clean, standard .apk or .apks formats!
+        run: |
+          cat << 'EOF' > repackager.py
+          import os, sys, zipfile, shutil
+          
+          pkg = sys.argv[1]
+          work_dir = "temp_dl"
+          out_dir = "processed_dl"
+          os.makedirs(out_dir, exist_ok=True)
+          
+          files = os.listdir(work_dir)
+          if not files:
+              print("[-] Error: No files were downloaded!")
+              sys.exit(1)
+              
+          dl_file = os.path.join(work_dir, files[0])
+          
+          if dl_file.endswith(".apk"):
+              print("[+] Standard APK detected. Renaming...")
+              final_path = os.path.join(out_dir, f"{pkg}.apk")
+              shutil.move(dl_file, final_path)
+              print(f"✅ Saved as {final_path}")
+              
+          elif dl_file.endswith(".xapk") or dl_file.endswith(".apkm"):
+              print("[+] Bundled file (.xapk/.apkm) detected. Converting to standard .apks...")
+              final_path = os.path.join(out_dir, f"{pkg}.apks")
+              
+              with zipfile.ZipFile(dl_file, 'r') as z_in:
+                  with zipfile.ZipFile(final_path, 'w', zipfile.ZIP_DEFLATED) as z_out:
+                      for item in z_in.namelist():
+                          # We only want the actual .apk files, ignoring manifests and icons
+                          if item.endswith(".apk"):
+                              file_name = item.split('/')[-1]
+                              z_out.writestr(file_name, z_in.read(item))
+                              print(f"  -> Extracted: {file_name}")
+                              
+              print(f"✅ Successfully repacked into standard format: {final_path}")
+          else:
+              print(f"[-] Unknown file format: {dl_file}")
+              sys.exit(1)
+          EOF
+          
+          python3 repackager.py "${{ env.pkg }}"
+
+      - name: Zip & Split (Bypass 100MB GitHub Limit)
+        shell: bash
+        run: |
+          mkdir -p apks
+          for FILE in processed_dl/*; do
+            [ -f "$FILE" ] || continue
+            SIZE=$(stat -c%s "$FILE")
+            LIMIT=$((95 * 1024 * 1024))
+            BASENAME=$(basename "$FILE")
+            
+            rm -f "apks/${BASENAME}.zip"*
+            
+            if [ "$SIZE" -gt "$LIMIT" ]; then
+              echo "📦 File exceeds 95MB. Splitting: $BASENAME"
+              if ! command -v 7z &> /dev/null; then
+                sudo apt-get update -qq && sudo apt-get install -y p7zip-full > /dev/null
+              fi
+              7z a -tzip -v95m "apks/${BASENAME}.zip" "$FILE"
+              for ZPART in "apks/${BASENAME}".zip.00*; do
+                [ -f "$ZPART" ] && basename "$ZPART" >> new_files.txt
+              done
+            else
+              echo "📄 File is under 95MB. Copying..."
+              cp -f "$FILE" "apks/$BASENAME"
+              echo "$BASENAME" >> new_files.txt
+            fi
+          done
+          rm -rf temp_dl processed_dl apkeep repackager.py
+
+      - name: Update Links.md
+        shell: bash
+        run: |
+          [ ! -f new_files.txt ] && exit 0
+        
+          REPO="${{ github.repository }}"
+          BRANCH="${GITHUB_REF_NAME}"
+          HEADER="## 🔗 Direct Download Links\n> Click on any link below to start downloading directly.<br><br/>\n\n"
+          
+          echo "### 📅 $(TZ='Asia/Tehran' date +'%Y-%m-%d %H:%M') IR" > current_run.md
+          
+          while IFS= read -r FNAME; do
+            ENCODED_NAME=$(python3 -c "import urllib.parse; print(urllib.parse.quote(input()))" <<< "$FNAME")
+            RAW_URL="https://github.com/$REPO/raw/$BRANCH/apks/$ENCODED_NAME"
+            
+            export FNAME_ENV="$FNAME"
+            SIZE_STR=$(python3 -c "import os; fname = os.environ.get('FNAME_ENV'); path = f'apks/{fname}'; size = os.path.getsize(path) if os.path.exists(path) else 0; print(f'{size/1048576:.1f}MB' if size >= 1048576 else f'{size//1024}KB')")
+            
+            EXT="${FNAME##*.}"
+            case "$EXT" in
+              apk|apks)        ICON="📱" ;;
+              zip|00[1-9]*)    ICON="🗜️" ;;
+              *)               ICON="📥" ;;
+            esac
+            
+            echo "- $ICON [\`$FNAME\`]($RAW_URL) - **$SIZE_STR**" >> current_run.md
+            echo "" >> current_run.md
+          done < new_files.txt
+          
+          echo "---" >> current_run.md
+          echo "" >> current_run.md
+          
+          if [ -f Links.md ]; then
+            tail -n +4 Links.md > old_links.md 2>/dev/null || touch old_links.md
+            echo -e "$HEADER" > Links.md
+            cat current_run.md old_links.md >> Links.md
+            rm old_links.md
+          else
+            echo -e "$HEADER" > Links.md
+            cat current_run.md >> Links.md
+          fi
+          rm -f new_files.txt current_run.md
+
+      - name: Push to Repository
+        run: |
+          git config user.name "NET-Sentinel Bot"
+          git config user.email "224584266+NetSentinel-Bot@users.noreply.github.com"
+          git add --sparse apks/ Links.md
+          git -c committer.name="Diana-Cl" -c committer.email="135276904+Diana-Cl@users.noreply.github.com" commit -m "Add ${{ env.pkg }} at: $(TZ='Asia/Tehran' date '+%H:%M:%S') [skip ci]" || echo "No changes to commit"
+          git push origin HEAD:${GITHUB_REF_NAME}
