@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-12 20:00 IR
+- 📥 [EveryProxy_armv8_v16.2.1.apks](https://github.com/nscl5/dl/raw/main/dl/EveryProxy_armv8_v16.2.1.apks) `8.1MB`
+
+---
+
+
 ### 📅 2026-05-12 10:39 IR
 - 📱 [WhiteDNS-1.2.0-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/WhiteDNS-1.2.0-arm64-v8a.apk) `5.1MB`
 
