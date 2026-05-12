@@ -2,6 +2,14 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-12 10:10 IR
+- 📱 [MasterDnsVPN-GG-1.1.0-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/MasterDnsVPN-GG-1.1.0-arm64-v8a.apk) `24.5MB`
+
+- 📱 [MasterDnsVPN-GG-1.1.0-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/MasterDnsVPN-GG-1.1.0-armeabi-v7a.apk) `24.1MB`
+
+---
+
+
 ### 📅 2026-05-11 20:43 IR
 - 📱 [v2rayNG_2.1.7_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.7_arm64-v8a.apk) `26.8MB`
 
