@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 18:01 (IR Time)
+- 📥 [7z2601-x64.exe](https://github.com/nscl5/dl/raw/main/dl/7z2601-x64.exe) `1.58 MB`
+
 ### 📅 2026-05-13 17:41 IR
 - 📱 [`app.intra_arm64.apks`](https://github.com/nscl5/dl/raw/main/apks/app.intra_arm64.apks) - **11.3MB**
 
