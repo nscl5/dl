@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 22:04 (IR Time)
+- 📥 [psiphon3.exe](https://github.com/nscl5/dl/raw/main/dl/psiphon3.exe) `9.44 MB`
+
 ### 📅 2026-05-13 20:35 IR
 - 📱 [PsiphonPro_v464.zip](https://github.com/nscl5/dl/raw/main/dl/PsiphonPro_v464.zip) `25MB`
 
