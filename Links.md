@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 17:37 IR
+- 📱 [`com.celzero.bravedns_arm64.apk`](https://github.com/nscl5/dl/raw/main/apks/com.celzero.bravedns_arm64.apk) - **60.5MB**
+
+---
+
+
 ### 📅 2026-05-13 17:13 IR
 - 📱 [`com.napsternetlabs.napsternetv_arm64_vlatest.apks`](https://github.com/nscl5/dl/raw/main/apks/com.napsternetlabs.napsternetv_arm64_vlatest.apks) - **68.6MB**
 
