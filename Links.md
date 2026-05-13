@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 14:35 IR
+- 📱 [`com.netmod.syna_arm64.apks`](https://github.com/nscl5/dl/raw/main/apks/com.netmod.syna_arm64.apks) - **31.3MB**
+
+---
+
+
 ### 📅 2026-05-13 04:05 IR
 - 📱 [`com.psiphon3.subscription_arm64.apk`](https://github.com/nscl5/dl/raw/main/apks/com.psiphon3.subscription_arm64.apk) - **25.0MB**
 
