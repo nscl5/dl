@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-13 18:49 (IR Time)
+- 📱 [app-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/app-armeabi-v7a-release.apk) `19.13 MB`
+
+### 📅 2026-05-13 18:49 (IR Time)
 - 📱 [app-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/app-arm64-v8a-release.apk) `31.24 MB`
 
 ### 📅 2026-05-13 18:01 IR
