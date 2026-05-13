@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-13 18:52 (IR Time)
+- 📱 [MahsaNG_15_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/MahsaNG_15_arm64-v8a.apk) `51.73 MB`
+
+### 📅 2026-05-13 18:52 (IR Time)
 - 📱 [SFA-1.13.11-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/SFA-1.13.11-armeabi-v7a.apk) `26.63 MB`
 
 ### 📅 2026-05-13 18:52 (IR Time)
