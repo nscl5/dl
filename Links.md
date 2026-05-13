@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-13 18:57 (IR Time)
+- 🗜️ [AmneziaVPN_4.8.15.4_android9__arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.4_android9__arm64-v8a.zip) `86.57 MB`
+
+### 📅 2026-05-13 18:57 (IR Time)
 - 🗜️ [rethink-53.zip](https://github.com/nscl5/dl/raw/main/dl/rethink-53.zip) `43.83 MB`
 
 ### 📅 2026-05-13 18:53 (IR Time)
