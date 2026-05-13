@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 20:17 (IR Time)
+- 🗜️ [EveryProxy_How_to.zip](https://github.com/nscl5/dl/raw/main/dl/EveryProxy_How_to.zip) `0.01 MB`
+
 ### 📅 2026-05-13 20:11 (IR Time)
 - 📥 [EveryProxy_armv8_v16.2.1.apks](https://github.com/nscl5/dl/raw/main/dl/EveryProxy_armv8_v16.2.1.apks) `8.13 MB`
 
