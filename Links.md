@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-13 18:52 (IR Time)
+- 📱 [SFA-1.13.11-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/SFA-1.13.11-arm64-v8a.apk) `26.88 MB`
+
+### 📅 2026-05-13 18:52 (IR Time)
 - 📱 [wgtunnel-standalone-v4.3.1-armv7.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v4.3.1-armv7.apk) `16.83 MB`
 
 ### 📅 2026-05-13 18:52 (IR Time)
