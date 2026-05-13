@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-13 18:51 (IR Time)
+- 📱 [Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-armeabi-v7a-release.apk) `47.37 MB`
+
+### 📅 2026-05-13 18:51 (IR Time)
 - 📱 [Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-arm64-v8a-release.apk) `50.80 MB`
 
 ### 📅 2026-05-13 18:49 (IR Time)
