@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 19:56 (IR Time)
+- 📱 [EveryProxy - v10.5.0.apk](https://github.com/nscl5/dl/raw/main/dl/EveryProxy%20-%20v10.5.0.apk) `1.95 MB`
+
 ### 📅 2026-05-13 19:55 (IR Time)
 - 📱 [OpenVPN_For_Android_Universal_v0.7.43.apk](https://github.com/nscl5/dl/raw/main/dl/OpenVPN_For_Android_Universal_v0.7.43.apk) `21.11 MB`
 
