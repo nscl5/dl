@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 18:58 (IR Time)
+- 🗜️ [AmneziaVPN_4.8.15.4_android9__armeabi-v7a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.4_android9__armeabi-v7a.zip) `80.99 MB`
+
 ### 📅 2026-05-13 18:57 (IR Time)
 - 🗜️ [AmneziaVPN_4.8.15.4_android9__arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.4_android9__arm64-v8a.zip) `86.57 MB`
 
