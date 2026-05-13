@@ -2,6 +2,12 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-13 17:13 IR
+- 📱 [`com.napsternetlabs.napsternetv_arm64_vlatest.apks`](https://github.com/nscl5/dl/raw/main/apks/com.napsternetlabs.napsternetv_arm64_vlatest.apks) - **68.6MB**
+
+---
+
+
 ### 📅 2026-05-13 17:04 (IR Time)
 - 📱 [DNSTT-Client-v2.2.0-Android-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/DNSTT-Client-v2.2.0-Android-armeabi-v7a.apk) `9.27 MB`
 
