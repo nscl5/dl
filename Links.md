@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-05-14 03:37 (IR Time)
+- 📱 [PsiphonAndroid v425.apk](https://github.com/nscl5/dl/raw/main/dl/PsiphonAndroid%20v425.apk) `22.72 MB`
+
 ### 📅 2026-05-13 22:04 (IR Time)
 - 📱 [PsiphonAndroid.apk](https://github.com/nscl5/dl/raw/main/dl/PsiphonAndroid.apk) `21.87 MB`
 
