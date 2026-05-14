@@ -3,6 +3,9 @@
 
 
 ### 📅 2026-05-14 11:38 (IR Time)
+- 📥 [geoip.dat](https://github.com/nscl5/dl/raw/main/dl/geoip.dat) `18.11 MB`
+
+### 📅 2026-05-14 11:38 (IR Time)
 - 📥 [geosite.dat](https://github.com/nscl5/dl/raw/main/dl/geosite.dat) `7.45 MB`
 
 ### 📅 2026-05-14 03:37 (IR Time)
