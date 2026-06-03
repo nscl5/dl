@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 
+### 📅 2026-06-03 18:21 (IR Time)
+- 📱 [v2rayNG_2.2.3_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
+
 ### 📅 2026-05-22 15:47 (IR Time)
 - 📱 [ShirOKhorshid-2026.05.14.apk](https://github.com/nscl5/dl/raw/main/dl/ShirOKhorshid-2026.05.14.apk) `23.93 MB`
 
