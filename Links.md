@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-05 18:50 (IR Time)
+- 📱 [wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk) `16.84 MB`
+
 ### 📅 2026-06-05 18:49 (IR Time)
 - 📱 [v2rayNG_2.2.3_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
 
