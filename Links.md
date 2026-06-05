@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-05 18:46 (IR Time)
+- 📱 [Exclave-0.17.43-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-armeabi-v7a.apk) `22.75 MB`
+
 ### 📅 2026-05-14 13:52 IR
 
 - 📱 [PsiphonPro_v464.zip](https://github.com/nscl5/dl/raw/main/dl/PsiphonPro_v464.zip) `25MB`
