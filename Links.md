@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-05 20:38 (IR Time)
+- 📱 [MT2.26.5.apk](https://github.com/nscl5/dl/raw/main/dl/MT2.26.5.apk) `29.60 MB`
+
 ### 📅 2026-06-05 18:52 IR
 
 - 📱 [v2rayNG_arm64-v8a_v2.2.3.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
