@@ -1,29 +1,25 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
-### 📅 2026-06-05 18:52 (IR Time)
-- 📱 [cmfa-2.11.29-meta-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-arm64-v8a-release.apk) `32.99 MB`
+### 📅 2026-06-05 18:52 IR
 
-### 📅 2026-06-05 18:52 (IR Time)
-- 📱 [cmfa-2.11.29-meta-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-armeabi-v7a-release.apk) `33.17 MB`
+- 📱 [v2rayNG_arm64-v8a_v2.2.3.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
 
-### 📅 2026-06-05 18:51 (IR Time)
-- 📱 [wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk) `17.56 MB`
+- 📱 [v2rayNG_armeabi-v7a_v2.2.3.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_armeabi-v7a.apk) `27.34 MB`
 
-### 📅 2026-06-05 18:50 (IR Time)
-- 📱 [wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk) `16.84 MB`
+- 📱 [Exclave_arm64-v8a_v0.17.43.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-arm64-v8a.apk) `22.25 MB`
 
-### 📅 2026-06-05 18:49 (IR Time)
-- 📱 [v2rayNG_2.2.3_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
+- 📱 [Exclave_armeabi-v7a_v0.17.43.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-armeabi-v7a.apk) `22.75 MB`
 
-### 📅 2026-06-05 18:48 (IR Time)
-- 📱 [v2rayNG_2.2.3_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_armeabi-v7a.apk) `27.34 MB`
+- 📱 [Clash-Meta_arm64-v8a_v2.11.29.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-arm64-v8a-release.apk) `32.99 MB`
 
-### 📅 2026-06-05 18:47 (IR Time)
-- 📱 [Exclave-0.17.43-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-arm64-v8a.apk) `22.25 MB`
+- 📱 [Clash-Meta_armeabi-v7a_v2.11.29.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-armeabi-v7a-release.apk) `33.17 MB`
 
-### 📅 2026-06-05 18:46 (IR Time)
-- 📱 [Exclave-0.17.43-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-armeabi-v7a.apk) `22.75 MB`
+- 📱 [wgtunnel_arm64-v8a_v5.0.1-nightly.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk) `17.56 MB`
+
+- 📱 [wgtunnel_armeabi-v7a_v5.0.1-nightly.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk) `16.84 MB`
+
+---
 
 ### 📅 2026-05-14 13:52 IR
 
@@ -120,11 +116,3 @@
 
 ### 📅 2026-04-26 22:15 IR
 - 🎬 [Vikings___Ragnar_Lothbrok___Farewell.mp4](https://github.com/nscl5/dl/raw/main/dl/Vikings___Ragnar_Lothbrok___Farewell.mp4) `92.4MB`
-
-- ‎🎬 [بازخوانی آهنگ ＂نی شکسته＂ توسط پرستو احمدی.mp4](https://github.com/nscl5/sandbox/raw/main/dl/%D8%A8%D8%A7%D8%B2%D8%AE%D9%88%D8%A7%D9%86%DB%8C%20%D8%A2%D9%87%D9%86%DA%AF%20%EF%BC%82%D9%86%DB%8C%20%D8%B4%DA%A9%D8%B3%D8%AA%D9%87%EF%BC%82%D8%AC%D9%86%D8%A7%D8%A8%20%D9%85%D8%AD%D9%85%D8%AF%20%D8%B1%D8%B6%D8%A7%D8%B2%D8%A7%D8%AF%D9%87%20%D8%AA%D9%88%D8%B3%D8%B7%20%D8%AE%D8%A7%D9%86%D9%85%20%D8%AE%D9%88%D8%B4%20%D8%B5%D8%AF%D8%A7%20%D9%BE%D8%B1%D8%B3%D8%AA%D9%88%20%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%20%23%D8%A2%D9%87%D9%86%DA%AF%20%23%D9%85%D9%88%D8%B2%DB%8C%DA%A9%20%23audio%20%23music.mp4) `1.57MB`
-
-- ‎🎬 [پرستو احمدی "مرا ببوس" کنسرت کاروانسرا, بدون حجاب اجباری در ایران.mp4](https://github.com/nscl5/sandbox/raw/main/dl/%D9%BE%D8%B1%D8%B3%D8%AA%D9%88%20%D8%A7%D8%AD%D9%85%D8%AF%DB%8C%20%EF%BD%9C%20%D9%85%D8%B1%D8%A7%20%D8%A8%D8%A8%D9%88%D8%B3%20%EF%BD%9C%20%DA%A9%D9%86%D8%B3%D8%B1%D8%AA%20%DA%A9%D8%A7%D8%B1%D9%88%D8%A7%D9%86%D8%B3%D8%B1%D8%A7%20%D8%A8%D8%AF%D9%88%D9%86%20%D8%AD%D8%AC%D8%A7%D8%A8%20%D8%A7%D8%AC%D8%A8%D8%A7%D8%B1%DB%8C%20%D8%AF%D8%B1%20%D8%A7%DB%8C%D8%B1%D8%A7%D9%86%20%EF%BD%9C%20%D9%85%D9%88%D8%B3%DB%8C%D9%82%DB%8C%20%D8%B2%D9%86%D8%AF%D9%87.mp4) `29.1MB`
-
-- 🎬 [Lana Del Rey-Young and Beautiful.mp4](https://github.com/nscl5/sandbox/raw/refs/heads/main/dl/Lana%20Del%20Rey%20-%20Young%20and%20Beautiful.mp4) `5.74MB`
-
-- 🎬 [When everyone wanted you dead.mp4](https://github.com/nscl5/sandbox/raw/refs/heads/main/dl/When%20everyone%20wanted%20you%20dead,%20Ragnar.mp4) `5.87MB`
