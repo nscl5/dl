@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-05 18:51 (IR Time)
+- 📱 [wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk) `17.56 MB`
+
 ### 📅 2026-06-05 18:50 (IR Time)
 - 📱 [wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk) `16.84 MB`
 
