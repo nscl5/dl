@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-05 18:49 (IR Time)
+- 📱 [v2rayNG_2.2.3_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
+
 ### 📅 2026-06-05 18:48 (IR Time)
 - 📱 [v2rayNG_2.2.3_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_armeabi-v7a.apk) `27.34 MB`
 
