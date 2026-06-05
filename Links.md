@@ -1,16 +1,6 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
-
-### 📅 2026-06-03 18:23 (IR Time)
-- 📱 [v2rayNG_2.2.3_armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_armeabi-v7a.apk) `27.34 MB`
-
-### 📅 2026-06-03 18:21 (IR Time)
-- 📱 [v2rayNG_2.2.3_arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
-
-### 📅 2026-05-22 15:47 (IR Time)
-- 📱 [ShirOKhorshid-2026.05.14.apk](https://github.com/nscl5/dl/raw/main/dl/ShirOKhorshid-2026.05.14.apk) `23.93 MB`
-
 ### 📅 2026-05-14 13:52 IR
 
 - 📱 [PsiphonPro_v464.zip](https://github.com/nscl5/dl/raw/main/dl/PsiphonPro_v464.zip) `25MB`
@@ -21,41 +11,11 @@
 
 - 📥 [Psiphon_windows_x64.exe](https://github.com/nscl5/dl/raw/main/dl/psiphon3.exe) `9.44 MB`
 
-- 📱 [ShirOKhorshid-v2026.05.14.apk](https://github.com/nscl5/dl/raw/main/dl/ShirOKhorshid-2026.05.14.apk) `23.93 MB`
-
-- 📥 [v2rayNG_geoip.dat](https://github.com/nscl5/dl/raw/main/dl/geoip.dat) `18.11 MB`
-
-- 📥 [v2rayNG_geosite.dat](https://github.com/nscl5/dl/raw/main/dl/geosite.dat) `7.45 MB`
-
 - 📱 [WireGuard_android_v1.0.20260315.apk](https://github.com/nscl5/dl/raw/main/dl/com.wireguard.android-1.0.20260315.apk) `16.16MB`
 
 - 📱 [v2box_armv8_v5.3.4.apks](https://github.com/nscl5/dl/raw/main/apks/dev.hexasoftware.v2box_arm64.apks) `28.0MB`
 
-- 🗜️ [Amnezia_android_armv8_v4.8.15.4.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.4_android9__arm64-v8a.zip) `86.57MB`
-
-- 🗜️ [Amnezia_android_armv7_v4.8.15.4.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.15.4_android9__armeabi-v7a.zip) `80.99MB`
-
 - 🗜️ [rethink_android_v53.zip](https://github.com/nscl5/dl/raw/main/dl/rethink-53.zip) `43.83MB`
-
-- 📱 [MahsaNG_armv8_v15.apk](https://github.com/nscl5/dl/raw/main/dl/MahsaNG_15_arm64-v8a.apk) `51.73MB`
-
-- 📱 [MahsaNG_armv7_v15.apk](https://github.com/nscl5/dl/raw/main/dl/MahsaNG_15_armeabi-v7a.apk) `52.32MB`
-
-- 📱 [SingBox_Android_armv8_v1.13.11.apk](https://github.com/nscl5/dl/raw/main/dl/SFA-1.13.11-arm64-v8a.apk) `26.88MB`
-
-- 📱 [SingBox_Android_armv7_v1.13.11.apk](https://github.com/nscl5/dl/raw/main/dl/SFA-1.13.11-armeabi-v7a.apk) `26.63MB`
-
-- 📱 [WG-Tunnel_armv8_v4.3.1.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v4.3.1-arm64.apk) `17.89MB`
-
-- 📱 [WG-Tunnel_armv7_v4.3.1.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v4.3.1-armv7.apk) `16.83MB`
-
-- 📱 [Orbot_armv8_v17.9.4-BETA-1_fullperm.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-arm64-v8a-release.apk) `50.80MB`
-
-- 📱 [Orbot_armvv_v17.9.4-BETA-1_fullperm.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-1-tor-0.4.9.6.2-1-g84015e0a4-fullperm-armeabi-v7a-release.apk) `47.37MB`
-
-- 📱 [Network-Checker_armv8_v0.5.0.apk](https://github.com/nscl5/dl/raw/main/dl/app-arm64-v8a-release.apk) `31.24MB`
-
-- 📱 [Network-Checker_armv7_v0.5.0.apk](https://github.com/nscl5/dl/raw/main/dl/app-armeabi-v7a-release.apk) `19.13MB`
 
 - 📥 [7zip_windows_x64.exe](https://github.com/nscl5/dl/raw/main/dl/7z2601-x64.exe) `1.58MB`
 
@@ -87,8 +47,6 @@
 
 - 📱 [Netmod_armv8_v4.1.0.apks](https://github.com/nscl5/dl/raw/main/apks/com.netmod.syna_arm64.apks) `31.3MB`
 
-- 📱 [MT_Manager_v2.26.4.apk](https://github.com/nscl5/dl/raw/main/dl/MT2.26.4_fix.apk) `28.82MB`
-
 - 📱 [WhiteDNS_armv8_v1.2.0.apk](https://github.com/nscl5/dl/raw/main/dl/WhiteDNS-1.2.0-arm64-v8a.apk) `5.1MB`
 
 - 📱 [WhiteDNS_armv7_v1.2.0.apk](https://github.com/nscl5/dl/raw/main/dl/WhiteDNS-1.2.0-armeabi-v7a.apk) `4.9MB`
@@ -96,15 +54,6 @@
 - 📱 [MasterDnsVPN-GG_armv8_v1.1.0.apk](https://github.com/nscl5/dl/raw/main/dl/MasterDnsVPN-GG-1.1.0-arm64-v8a.apk) `24.5MB`
 
 - 📱 [MasterDnsVPN-GG_armv7_v1.1.0.apk](https://github.com/nscl5/dl/raw/main/dl/MasterDnsVPN-GG-1.1.0-armeabi-v7a.apk) `24.1MB`
-
----
-
-### 📅 2026-05-11 20:43 IR
-- 📱 [v2rayNG_armv8_2.1.7.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.7_arm64-v8a.apk) `26.8MB`
-
-- 📱 [v2rayNG_armv7_2.1.7.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.1.7_armeabi-v7a.apk) `27.1MB`
-
-- 📥 [Happ_android_v3.20.4.zip](https://github.com/nscl5/dl/raw/main/dl/Happ.zip) `51.59 MB`
 
 ---
 
@@ -116,18 +65,6 @@
 - 📥 [Telegram_windows-x64_setup-file_v6.8.1.exe](https://github.com/nscl5/dl/raw/main/dl/tsetup-x64.6.8.1.exe) `49.2MB`
 
 - 📥 [Telegram_linux_setup_v6.8.1.tar.xz](https://github.com/nscl5/dl/raw/main/dl/tsetup.6.8.1.tar.xz) `64.2MB`
-
----
-
-### 📅 2026-05-08 11:45 IR
-
-- 📥 [Windscribe_armv8_v4.0.2208.apks](https://github.com/nscl5/dl/raw/main/dl/Windscribe_armv8_4.0.2208.apks) `39.36MB`
-
-- 📥 [Exclave_armv8_v0.17.39.zip](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.39-arm64-v8a.zip) `20.66MB`
-
-- 📥 [Exclave_armv7_0.17.39.zip](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.39-armeabi-v7a.zip) `21.12MB`
-
-- 🗜️ [Exclave_Full Backup - 1 May_2026.zip](https://github.com/nscl5/dl/raw/main/dl/ExclaveFullBackup_1May_2026.zip) `2.1MB`
 
 ---
 
@@ -151,30 +88,9 @@
 
 - 🗜️ [Defyx_windows.zip](https://github.com/nscl5/dl/raw/main/dl/windows-release.zip) `31.6MB`
 
-- 📱 [Clash-Meta_armv8_v2.11.27.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.27-meta-arm64-v8a-release.apk) `29.5MB`
-
-- 📱 [Clash-Meta_armv7_v2.11.27.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.27-meta-armeabi-v7a-release.apk) `29.6MB`
-
 - 📱 [Incy.apk](https://github.com/nscl5/dl/raw/main/dl/Incy.apk) `50.2MB`
 
 - 📥 [incy-windows-setup.exe](https://github.com/nscl5/dl/raw/main/dl/incy-windows-setup.exe) `19.0MB`
-
----
-
-### 📅 2026-04-27 10:32 IR
-- 📱 [SlipNet-v2.5.3-full-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-arm64-v8a.apk) `25.6MB`
-
-- 📱 [SlipNet-v2.5.3-full-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-armeabi-v7a.apk) `24.8MB`
-
-- 📱 [SlipNet-v2.5.3-full-universal.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-full-release-universal.apk) `54.6MB`
-
-- 📱 [SlipNet-v2.5.3-lite-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-arm64-v8a.apk) `10.6MB`
-
-- 📱 [SlipNet-v2.5.3-lite-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-armeabi-v7a.apk) `10.5MB`
-
-- 📱 [SlipNet-v2.5.3-lite-universal.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNet-v2.5.3-lite-release-universal.apk) `22.5MB`
-
-- 📱 [SlipNetLiteClone_armv8_v2.5.3.apk](https://github.com/nscl5/dl/raw/main/dl/SlipNetLiteClone_armv8_v2.5.3.apk) `10.7MB`
 
 ---
 
