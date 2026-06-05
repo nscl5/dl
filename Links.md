@@ -2,6 +2,9 @@
 > Click on any link below to start downloading directly.<br><br/>
 
 ### 📅 2026-06-05 18:52 (IR Time)
+- 📱 [cmfa-2.11.29-meta-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-arm64-v8a-release.apk) `32.99 MB`
+
+### 📅 2026-06-05 18:52 (IR Time)
 - 📱 [cmfa-2.11.29-meta-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-armeabi-v7a-release.apk) `33.17 MB`
 
 ### 📅 2026-06-05 18:51 (IR Time)
