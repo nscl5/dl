@@ -1,17 +1,10 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
-### 📅 2026-06-06 08:36 (IR Time)
-- 📱 [Happ.apk](https://github.com/nscl5/dl/raw/main/dl/Happ.apk) `56.32 MB`
+### 📅 2026-06-06 08:36 IR
+- 📱 [Happ_universal_v3.22.1.apk](https://github.com/nscl5/dl/raw/main/dl/Happ.apk) `56.32 MB`
 
-### 📅 2026-06-06 08:35 (IR Time)
-- 🗜️ [setup-Happ.x64.zip.001](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.001) `95.00 MB`
-- 🗜️ [setup-Happ.x64.zip.002](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.002) `16.31 MB`
-
-### 📅 2026-06-05 20:38 (IR Time)
 - 📱 [MT2.26.5.apk](https://github.com/nscl5/dl/raw/main/dl/MT2.26.5.apk) `29.60 MB`
-
-### 📅 2026-06-05 18:52 IR
 
 - 📱 [v2rayNG_arm64-v8a_v2.2.3.apk](https://github.com/nscl5/dl/raw/main/dl/v2rayNG_2.2.3_arm64-v8a.apk) `27.01 MB`
 
@@ -20,6 +13,10 @@
 - 📱 [Exclave_arm64-v8a_v0.17.43.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-arm64-v8a.apk) `22.25 MB`
 
 - 📱 [Exclave_armeabi-v7a_v0.17.43.apk](https://github.com/nscl5/dl/raw/main/dl/Exclave-0.17.43-armeabi-v7a.apk) `22.75 MB`
+
+- 🗜️ [Exclave_Full_Backup-6Jun.zip](https://c224731.parspack.net/c224731/ex/ExclaveFullBackup_6Jun_2026.zip)
+
+- 🗜️ [Amnezia_Backup_File_6Jun](https://c224731.parspack.net/c224731/ex/AmneziaVPN_6Jun_Di.backup)
 
 - 📱 [Clash-Meta_arm64-v8a_v2.11.29.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-arm64-v8a-release.apk) `32.99 MB`
 
