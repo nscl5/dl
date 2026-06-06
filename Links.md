@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-06 08:36 (IR Time)
+- 📱 [Happ.apk](https://github.com/nscl5/dl/raw/main/dl/Happ.apk) `56.32 MB`
+
 ### 📅 2026-06-06 08:35 (IR Time)
 - 🗜️ [setup-Happ.x64.zip.001](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.001) `95.00 MB`
 - 🗜️ [setup-Happ.x64.zip.002](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.002) `16.31 MB`
