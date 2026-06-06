@@ -1,6 +1,10 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-06 08:35 (IR Time)
+- 🗜️ [setup-Happ.x64.zip.001](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.001) `95.00 MB`
+- 🗜️ [setup-Happ.x64.zip.002](https://github.com/nscl5/dl/raw/main/dl/setup-Happ.x64.zip.002) `16.31 MB`
+
 ### 📅 2026-06-05 20:38 (IR Time)
 - 📱 [MT2.26.5.apk](https://github.com/nscl5/dl/raw/main/dl/MT2.26.5.apk) `29.60 MB`
 
