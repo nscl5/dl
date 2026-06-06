@@ -1,19 +1,14 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
-### 📅 2026-06-06 08:55 (IR Time)
-- 📱 [Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-arm64-v8a-release.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-arm64-v8a-release.apk) `30.76 MB`
+### 📅 2026-06-06 08:55 IR
 
-### 📅 2026-06-06 08:54 (IR Time)
-- 📱 [Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-armeabi-v7a-release.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-armeabi-v7a-release.apk) `30.65 MB`
+- 🗜️ [AmneziaVPN_4.8.16.0_arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.16.0_android9__arm64-v8a.zip) `87.23 MB`
 
-### 📅 2026-06-06 08:50 (IR Time)
-- 🗜️ [AmneziaVPN_4.8.16.0_android9__armeabi-v7a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.16.0_android9__armeabi-v7a.zip) `81.86 MB`
+- 🗜️ [AmneziaVPN_4.8.16.0_armeabi-v7a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.16.0_android9__armeabi-v7a.zip) `81.86 MB`
 
-### 📅 2026-06-06 08:48 (IR Time)
-- 🗜️ [AmneziaVPN_4.8.16.0_android9__arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.16.0_android9__arm64-v8a.zip) `87.23 MB`
+- 🗜️ [Amnezia_Backup_File_6Jun](https://c224731.parspack.net/c224731/ex/AmneziaVPN_6Jun_Di.backup)
 
-### 📅 2026-06-06 08:36 IR
 - 📱 [Happ_universal_v3.22.1.apk](https://github.com/nscl5/dl/raw/main/dl/Happ.apk) `56.32 MB`
 
 - 📱 [MT2.26.5.apk](https://github.com/nscl5/dl/raw/main/dl/MT2.26.5.apk) `29.60 MB`
@@ -28,8 +23,6 @@
 
 - 🗜️ [Exclave_Full_Backup-6Jun.zip](https://c224731.parspack.net/c224731/ex/ExclaveFullBackup_6Jun_2026.zip)
 
-- 🗜️ [Amnezia_Backup_File_6Jun](https://c224731.parspack.net/c224731/ex/AmneziaVPN_6Jun_Di.backup)
-
 - 📱 [Clash-Meta_arm64-v8a_v2.11.29.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-arm64-v8a-release.apk) `32.99 MB`
 
 - 📱 [Clash-Meta_armeabi-v7a_v2.11.29.apk](https://github.com/nscl5/dl/raw/main/dl/cmfa-2.11.29-meta-armeabi-v7a-release.apk) `33.17 MB`
@@ -37,6 +30,10 @@
 - 📱 [wgtunnel_arm64-v8a_v5.0.1-nightly.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-arm64.apk) `17.56 MB`
 
 - 📱 [wgtunnel_armeabi-v7a_v5.0.1-nightly.apk](https://github.com/nscl5/dl/raw/main/dl/wgtunnel-standalone-v5.0.1-nightly_git.abdbf74-armv7.apk) `16.84 MB`
+
+- 📱 [Orbot-17.9.4-BETA-2-arm64-v8a.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-arm64-v8a-release.apk) `30.76 MB`
+
+- 📱 [Orbot-17.9.4-BETA-2-armeabi-v7a.apk](https://github.com/nscl5/dl/raw/main/dl/Orbot-17.9.4-BETA-2-tor-0.4.9.8-2-g57efded50-fullperm-armeabi-v7a-release.apk) `30.65 MB`
 
 ---
 
