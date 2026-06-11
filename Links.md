@@ -1,6 +1,9 @@
 ## 🔗 Direct Download Links
 > Click on any link below to start downloading directly.<br><br/>
 
+### 📅 2026-06-12 02:33 (IR Time)
+- 🗜️ [tsetup-x64.6.9.2.zip](https://github.com/nscl5/dl/raw/main/dl/tsetup-x64.6.9.2.zip) `50.14 MB`
+
 ### 📅 2026-06-06 08:55 IR
 
 - 🗜️ [AmneziaVPN_4.8.16.0_arm64-v8a.zip](https://github.com/nscl5/dl/raw/main/dl/AmneziaVPN_4.8.16.0_android9__arm64-v8a.zip) `87.23 MB`
